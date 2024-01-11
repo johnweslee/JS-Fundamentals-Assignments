@@ -53,3 +53,10 @@ if(population2 > 33000000){
 }else{
     console.log(`${country}'s population is ${population2} million below average`);
 }
+
+//Type Conversion and Coercion
+console.log(`Output for the operation - '9'-'5', expected: 4, actual:${'9'-'5'}`);
+console.log(`Output for the operation - '19'-'13'+'17', expected: 617, actual:${'19'-'13'+'17'}`);
+console.log(`Output for the operation - '19'-'13'+17, expected: 23, actual:${'19'-'13'+17}`);
+console.log(`Output for the operation - '123'<57, expected: false, actual:${'123'<57}`);
+console.log(`Output for the operation - 5+6+'4'+9-4-2, expected: 1143, actual:${5+6+'4'+9-4-2}`);
