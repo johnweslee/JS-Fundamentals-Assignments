@@ -146,3 +146,11 @@ indiaPopulationPercentage = percentageOfWorld2(1500);
 australiaPopulationPercentage = percentageOfWorld2(500);
 
 console.log(chinaPopulationPercentage, indiaPopulationPercentage, australiaPopulationPercentage);
+
+//Arrow functions
+const percentageOfWorld3 = (population) => population * 100 / 7900;
+chinaPopulationPercentage = percentageOfWorld3(2000);
+indiaPopulationPercentage = percentageOfWorld3(1500);
+australiaPopulationPercentage = percentageOfWorld3(500);
+
+console.log(chinaPopulationPercentage, indiaPopulationPercentage, australiaPopulationPercentage);
