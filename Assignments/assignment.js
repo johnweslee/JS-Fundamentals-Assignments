@@ -32,3 +32,24 @@ console.log(`Does ${country} have less people than the average country - ${popul
 //Strings and Template Literals
 let description = `${country} is in ${continent}, and its ${halfCountry} people speak ${language}`;
 console.log(description);
+
+//taking decisions : if/else statements
+if(population > 33000000){
+    console.log(`${country}'s population is above avarage`);
+}else{
+    console.log(`${country}'s population is ${population} million below average`);
+}
+
+let population1 = 13000000;
+if(population1 > 33000000){
+    console.log(`${country}'s population is above avarage`);
+}else{
+    console.log(`${country}'s population is ${population1} million below average`);
+}
+
+let population2 = 130000000
+if(population2 > 33000000){
+    console.log(`${country}'s population is above avarage`);
+}else{
+    console.log(`${country}'s population is ${population2} million below average`);
+}
