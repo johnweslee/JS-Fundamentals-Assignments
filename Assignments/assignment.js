@@ -236,3 +236,12 @@ for(let i = 0; i <= listOfNeighbours.length - 1; i++){
 
     }
 }
+
+// while
+const percentages3 = [];
+let b = 0;
+while(b <= populations.length - 1){
+    percentages3.push(percentageOfWorld1(populations[i]));
+    b++;
+}
+console.log(percentages3);
