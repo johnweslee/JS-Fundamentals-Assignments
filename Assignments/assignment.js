@@ -75,8 +75,15 @@ if(numNeighbours === 1){
 
 //logical operators
 //Sarah's criteria
-if(population < 50000000 && language === 'English' && isIsland === false){
+if(population < 50000000 && language === 'English' && !isIsland){
     console.log(`You should live in ${country}`);
 }else{
     console.log(`${country} does not meet your criteria :(`);
 }
+
+//Ternary operator
+let result = population > 33000000 ? `${country}'s population is above average` : `${country}'s population is below average`;
+console.log(result);
+let population3 = 130000000
+result = population3 > 33000000 ? `${country}'s population is above average` : `${country}'s population is below average`;
+console.log(result);
