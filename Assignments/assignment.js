@@ -211,3 +211,17 @@ myCountry['population'] -= 4;
 console.log(myCountry);
 
 myCountry.describe();
+
+//for loop
+for(let voter = 1; voter <= 50; voter++){
+    console.log(`Voter number ${voter} is currently voting`);
+}
+
+//looping arrays, breaking and continuing
+let percentages2 = [];
+for(let i = 0; i <= populations.length - 1; i++){
+    percentages2.push(percentageOfWorld1(populations[i]));
+}
+console.log(`Percentages2: ${percentages2}`);
+
+console.log(`Both computed percentages are equal - ${percentages === percentages2}`);
