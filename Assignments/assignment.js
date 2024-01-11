@@ -11,9 +11,8 @@ console.log(`Country: ${country}, Continent: ${continent}, Population: ${populat
 //data types
 
 let isIsland = true;
-const language;
-
-console.log(typeof isIsland, typeof population, typeof country, typeof language);
 
 //let, const, var
-language = 'Tamizh';
+const language = 'Tamizh';
+
+console.log(typeof isIsland, typeof population, typeof country, typeof language);
