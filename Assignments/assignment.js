@@ -87,3 +87,26 @@ console.log(result);
 let population3 = 130000000
 result = population3 > 33000000 ? `${country}'s population is above average` : `${country}'s population is below average`;
 console.log(result);
+
+//switch statement
+switch(language){
+    case 'Mandarin':
+    case 'Chinese':
+        console.log(`MOST number of native speakers!`);
+        break;
+    case 'Spanish':
+        console.log(`2nd place in number of native speakers`);
+        break;
+    case 'English':
+        console.log(`3rd place`);
+        break;
+    case 'Hindi':
+        console.log(`Number 4`);
+        break;
+    case 'Arabic':
+        console.log(`5th most spoken language`);
+        break;
+    default:
+        console.log(`Great language too :D`);
+        break;
+}
