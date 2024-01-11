@@ -223,5 +223,15 @@ for(let i = 0; i <= populations.length - 1; i++){
     percentages2.push(percentageOfWorld1(populations[i]));
 }
 console.log(`Percentages2: ${percentages2}`);
+console.log(`Percentages: ${percentages}`);
 
-console.log(`Both computed percentages are equal - ${percentages === percentages2}`);
+// loops in loops
+const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 'Russia']];
+console.log(listOfNeighbours);
+
+for(let i = 0; i <= listOfNeighbours.length - 1; i++){
+    for(let j = 0; j <= listOfNeighbours[i].length - 1; j++){
+        console.log(listOfNeighbours[i]);
+
+    }
+}
