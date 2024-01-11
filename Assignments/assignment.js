@@ -184,3 +184,12 @@ console.log(neighbours);
 let a = neighbours.indexOf('Nepal')
 neighbours[a] = 'Maldives';
 console.log(neighbours);
+
+//objects
+const myCountry = {
+    country: 'India',
+    capital: 'New Delhi',
+    language: 'Tamizh',
+    population: 1500,
+    neighbours: ['China', 'Pakistan', 'Nepal', 'Bhutan']
+};
