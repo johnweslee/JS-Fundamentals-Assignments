@@ -229,9 +229,10 @@ console.log(`Percentages: ${percentages}`);
 const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 'Russia']];
 console.log(listOfNeighbours);
 
+console.log(`print all`);
 for(let i = 0; i <= listOfNeighbours.length - 1; i++){
     for(let j = 0; j <= listOfNeighbours[i].length - 1; j++){
-        console.log(listOfNeighbours[i]);
+        console.log(listOfNeighbours[i][j]);
 
     }
 }
