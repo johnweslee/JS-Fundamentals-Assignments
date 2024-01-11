@@ -62,7 +62,8 @@ console.log(`Output for the operation - '123'<57, expected: false, actual:${'123
 console.log(`Output for the operation - 5+6+'4'+9-4-2, expected: 1143, actual:${5+6+'4'+9-4-2}`);
 
 //equality operators: == vs ===
-let numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+//let numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+let numNeighbours = 9;
 console.log(`How many neighbours does your country have?`);
 if(numNeighbours === 1){
     console.log(`Only ${numNeighbours} border`);
