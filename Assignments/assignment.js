@@ -156,14 +156,31 @@ australiaPopulationPercentage = percentageOfWorld3(500);
 console.log(chinaPopulationPercentage, indiaPopulationPercentage, australiaPopulationPercentage);
 
 //function calling other functions
-
 const describePopulation = (country, population) => `${country} has ${population} million people which is about ${percentageOfWorld1(population)}% of the world.`;
 
 //Arrays
 const populations = [2000, 1500, 1000, 500];
-
 console.log(populations.length === 4);
 
 const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
-
 console.log(populations, percentages);
+
+//basic array operations
+const neighbours = ['China', 'Pakistan', 'Nepal', 'Bhutan'];
+console.log(neighbours);
+
+neighbours.push('Utopia');
+console.log(neighbours);
+
+neighbours.pop();
+console.log(neighbours);
+
+let isNotCentralEuropeCountry = !neighbours.includes('Germany');
+if(isNotCentralEuropeCountr){
+    console.log('Probably not a central European country :D');
+}
+
+console.log(neighbours);
+let a = neighbours.indexOf('Nepal')
+neighbours[a] = 'Maldives';
+console.log(neighbours);
