@@ -72,3 +72,11 @@ if(numNeighbours === 1){
 }else{
     console.log(`No borders`);
 }
+
+//logical operators
+//Sarah's criteria
+if(population < 50000000 && language === 'English' && isIsland === false){
+    console.log(`You should live in ${country}`);
+}else{
+    console.log(`${country} does not meet your criteria :(`);
+}
