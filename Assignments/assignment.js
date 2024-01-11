@@ -154,3 +154,8 @@ indiaPopulationPercentage = percentageOfWorld3(1500);
 australiaPopulationPercentage = percentageOfWorld3(500);
 
 console.log(chinaPopulationPercentage, indiaPopulationPercentage, australiaPopulationPercentage);
+
+//function calling other functions
+
+const describePopulation = (country, population) => `${country} has ${population} million people which is about ${percentageOfWorld1(population)}% of the world.`;
+
