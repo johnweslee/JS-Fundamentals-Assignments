@@ -176,7 +176,7 @@ neighbours.pop();
 console.log(neighbours);
 
 let isNotCentralEuropeCountry = !neighbours.includes('Germany');
-if(isNotCentralEuropeCountr){
+if(isNotCentralEuropeCountry){
     console.log('Probably not a central European country :D');
 }
 
