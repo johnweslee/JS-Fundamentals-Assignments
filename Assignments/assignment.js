@@ -125,3 +125,24 @@ let country2 = describeCountry('China', 2, 'Beijing');
 let country3 = describeCountry('France', 3, 'Paris');
 
 console.log(country1, country2, country3);
+
+//function declarations vs expressions
+function percentageOfWorld1(population){
+    return population * 100 / 7900;
+}
+
+let chinaPopulationPercentage = percentageOfWorld1(2000);
+let indiaPopulationPercentage = percentageOfWorld1(1500);
+let australiaPopulationPercentage = percentageOfWorld1(500);
+
+console.log(chinaPopulationPercentage, indiaPopulationPercentage, australiaPopulationPercentage);
+
+const percentageOfWorld2 = function (population){
+    return population * 100 / 7900;
+}
+
+chinaPopulationPercentage = percentageOfWorld2(2000);
+indiaPopulationPercentage = percentageOfWorld2(1500);
+australiaPopulationPercentage = percentageOfWorld2(500);
+
+console.log(chinaPopulationPercentage, indiaPopulationPercentage, australiaPopulationPercentage);
