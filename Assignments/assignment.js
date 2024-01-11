@@ -241,7 +241,7 @@ for(let i = 0; i <= listOfNeighbours.length - 1; i++){
 const percentages3 = [];
 let b = 0;
 while(b <= populations.length - 1){
-    percentages3.push(percentageOfWorld1(populations[i]));
+    percentages3.push(percentageOfWorld1(populations[b]));
     b++;
 }
 console.log(percentages3);
