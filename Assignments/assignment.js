@@ -159,3 +159,11 @@ console.log(chinaPopulationPercentage, indiaPopulationPercentage, australiaPopul
 
 const describePopulation = (country, population) => `${country} has ${population} million people which is about ${percentageOfWorld1(population)}% of the world.`;
 
+//Arrays
+const populations = [2000, 1500, 1000, 500];
+
+console.log(populations.length === 4);
+
+const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
+
+console.log(populations, percentages);
